@@ -1,0 +1,23 @@
+.quest-xp {
+    font-size: 14px;
+    color: #4CAF50;
+    white-space: nowrap;
+}
+
+.quest-xp img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+@media (max-width: 375px) {
+    .quest-xp {
+        font-size: 12px;
+    }
+
+    .quest-xp img {
+        width: 20px;
+        height: 20px;
+    }
+}

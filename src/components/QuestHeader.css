@@ -1,0 +1,46 @@
+.quest-header {
+    background-image: url('../images/wood.png');
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    margin: 0;
+}
+
+.close-icon {
+    width: 20px;
+    cursor: pointer;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sub-title {
+    margin: 0;
+}
+
+.place-ads-btn {
+    background: linear-gradient(96.85deg, #5DDB22 -3.92%, #29EB82 100%);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0px 8px 0px 0px #1C8552, 0px -1px 0.5px 0.5px #FFFFFF80 inset, 0px 1px 0.5px 0.5px #FFFFFF80 inset;
+}
+
+.place-ads-btn:hover {
+    background-color: white;
+    color: black;
+}

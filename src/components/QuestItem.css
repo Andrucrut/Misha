@@ -1,0 +1,123 @@
+.quest-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 48px);
+    height: 50px;
+    padding: 5px 0;
+    margin-bottom: 15px;
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: #9C4C3026;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    opacity: 1;
+    box-shadow: 0px 3px 0px 0px #53563E80 inset;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    overflow: visible;
+    z-index: 0;
+}
+
+.quest-item.completed {
+    background-color: #d4edda;
+}
+
+.gg-icon {
+    width: 10px;
+    height: 16px;
+    position: relative;
+    right: -5%;
+}
+
+
+.arrow-icon {
+    width: 10px;
+    height: 16px;
+    position: relative;
+    right: -5%;
+}
+
+.frame-img {
+    width: 24px;
+    height: 24px;
+}
+
+.quest-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 10px;
+    text-align: left;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.quest-time {
+    font-size: 12px;
+    color: #777;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px 5px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+
+.quest-name {
+    font-size: 16px;
+    color: #333;
+    word-wrap: break-word;
+    white-space: normal;
+    max-width: 24ch;
+}
+
+.quest-xp {
+    font-size: 14px;
+    color: #4CAF50;
+    white-space: nowrap;
+}
+
+
+
+.quest-xp img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.xp-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 5px;
+    position: relative;
+}
+
+.xp-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+    color: white;
+    border-radius: 12px;
+    height: 24px;
+    min-width: 30px;
+}
+
+@media (max-width: 375px) {
+    .quest-xp {
+        font-size: 12px;
+    }
+
+    .quest-xp img {
+        width: 20px;
+        height: 20px;
+    }
+}
