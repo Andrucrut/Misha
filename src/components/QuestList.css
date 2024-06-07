@@ -1,3 +1,9 @@
+.quest-list {
+    height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 .quest-xp {
     font-size: 14px;
     color: #4CAF50;
@@ -8,8 +14,6 @@
     width: 24px;
     height: 24px;
 }
-
-
 
 @media (max-width: 375px) {
     .quest-xp {

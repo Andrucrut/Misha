@@ -1,0 +1,36 @@
+.header-bottom {
+    font-family: "Rubik";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+}
+
+
+.sub-title {
+    font-family: Rubik;
+    margin: 0;
+    font-size: 18px;
+    color: #FFF;
+    line-height: 16px;
+    size: 16px;
+}
+
+.place-ads-btn {
+    font-family: Rubik;
+    background: linear-gradient(96.85deg, #5DDB22 -3.92%, #29EB82 100%);
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0px 8px 0px 0px #1C8552, 0px -1px 0.5px 0.5px #FFFFFF80 inset, 0px 1px 0.5px 0.5px #FFFFFF80 inset;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+}
